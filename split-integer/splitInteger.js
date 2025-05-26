@@ -8,6 +8,5 @@ function splitInteger(value, numberOfParts) {
   return result.sort((a, b) => a - b);
 }
 
-module.exports = splitInteger;
-console.log(splitInteger(10, 3)); 
+module.exports = splitInteger; 
 
